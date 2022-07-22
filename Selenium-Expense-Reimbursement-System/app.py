@@ -15,7 +15,7 @@ password_input = driver.find_element(By.ID, "password")
 
 password_input.send_keys("password")
 
-login_button = driver.find_element(By.ID, "login")
+login_button = driver.find_element(By.XPATH, "//*[@class=('button is-success is-rounded')]")
 
 login_button.click()
 
